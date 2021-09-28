@@ -130,7 +130,7 @@ const farms: FarmConfig[] = [
     tokenAddresses: {
       97: '',
       56: '',
-      137: '',
+      1285: '',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
