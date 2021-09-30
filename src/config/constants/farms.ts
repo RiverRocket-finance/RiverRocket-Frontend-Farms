@@ -75,13 +75,13 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
    {
-    pid: 4,
+    pid: 10,
     risk: 3,
-    lpSymbol: 'MSWAP-MOVR LP',
+    lpSymbol: 'MSWAP-USDC LP',
     lpAddresses: {
       97: '',
       56: '',
-      1285: '0x66fFF9B5072CbdFb4bCe50563eC13B237d6A4972',
+      1285: '0x02158E0c90F1CD780c56b68F6904c8EE2f72eFB7',
     },
     tokenSymbol: 'MSWAP',
     tokenAddresses: {
