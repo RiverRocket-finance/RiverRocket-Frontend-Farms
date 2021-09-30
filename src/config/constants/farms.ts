@@ -176,7 +176,7 @@ const farms: FarmConfig[] = [
   
   
     {
-    pid: 2,
+    pid: 9,
     risk: 5,
     isTokenOnly: true,
     lpSymbol: 'RIVA',
