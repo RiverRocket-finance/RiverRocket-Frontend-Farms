@@ -75,7 +75,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
    {
-    pid: 10,
+    pid: 4,
     risk: 3,
     lpSymbol: 'MSWAP-USDC LP',
     lpAddresses: {
