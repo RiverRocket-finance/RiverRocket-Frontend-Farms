@@ -61,7 +61,7 @@ const CakeStats = () => {
         </Row>
         <Row>
           <Text fontSize="14px">{TranslateString(540, 'New MROCKET/block')}</Text>
-          <Text bold fontSize="14px">{rivaPerBlock}</Text>
+          <Text bold fontSize="14px">{moonfarmPerBlock}</Text>
         </Row>
       </CardBody>
     </StyledCakeStats>
