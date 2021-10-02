@@ -31,7 +31,7 @@ const TotalValueLockedCard = () => {
         <>
           {/* <Heading size="xl">{`$${tvl}`}</Heading> */}
           {/* <Heading size="xl"> */}
-            <CardValue value={Cakeprice.toNumber()} prefix="$" decimals={2}/>
+            <CardValue value={Bnbprice.toNumber()} prefix="$" decimals={2}/>
           {/* </Heading> */}
           <Text color="textSubtle">{TranslateString(999, 'Across all Farms and Pools')}</Text>
         </>
