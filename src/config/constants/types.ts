@@ -26,14 +26,14 @@ export enum QuoteToken {
   'BUSD' = 'BUSD',
   'TWT' = 'TWT',
   'UST' = 'UST',
-  'MOVR' = 'MOVR'
-  'WMOVR' = 'WMOVR'
-  'RIVA' = 'RIVA'
-  'USDC' = 'USDC'
-  'MSWAP' = 'MSWAP'
-  'WETH' = 'WETH'
-  'USDT' = 'USDT'
-  'DAI' = 'DAI'
+  'MOVR' = 'MOVR',
+  'WMOVR' = 'WMOVR',
+  'RIVA' = 'RIVA',
+  'USDC' = 'USDC',
+  'MSWAP' = 'MSWAP',
+  'WETH' = 'WETH',
+  'USDT' = 'USDT',
+  'DAI' = 'DAI',
 }
 
 export enum PoolCategory {
