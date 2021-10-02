@@ -32,9 +32,9 @@ const CakeStats = () => {
   const cakeSupply = getBalanceNumber(circSupply);
   const marketCap = eggPrice.times(circSupply);
 
-  let rivaPerBlock = 0;
-  if(farms && farms[0] && farms[0].rivaPerBlock){
-    rivaPerBlock = new BigNumber(farms[0].rivaPerBlock).div(new BigNumber(10).pow(18)).toNumber();
+  let moonfarmPerBlock = 0;
+  if(farms && farms[0] && farms[0].moonfarmPerBlock){
+    moonfarmPerBlock = new BigNumber(farms[0].moonfarmPerBlock).div(new BigNumber(10).pow(18)).toNumber();
   }
 
   return (
