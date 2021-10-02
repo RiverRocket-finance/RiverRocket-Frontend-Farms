@@ -23,7 +23,7 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'RIVA-WMOVR LP',
+    lpSymbol: 'RIVA-MOVR LP',
     lpAddresses: {
       97: '',
       56: '',
@@ -41,13 +41,13 @@ const farms: FarmConfig[] = [
   {
     pid: 2,
     risk: 3,
-    lpSymbol: 'WMOVR-USDC LP',
+    lpSymbol: 'MOVR-USDC LP',
     lpAddresses: {
       97: '',
       56: '',
       1285: '0x74888A02891586EBecCc7B04A0F7a9b5098Daf05',
     },
-    tokenSymbol: 'WMOVR',
+    tokenSymbol: 'MOVR',
     tokenAddresses: {
       97: '',
       56: '',
