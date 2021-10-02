@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Card, CardBody, Heading, Skeleton, Text } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { useGetStats } from 'hooks/api'
-import { useTotalValue, usePriceCakeBusd, usePriceBnbBusd } from '../../../state/hooks'
+import { useTotalValue } from '../../../state/hooks'
 import CardValue from './CardValue'
 
 const StyledTotalValueLockedCard = styled(Card)`
@@ -17,10 +17,7 @@ const TotalValueLockedCard = () => {
   // const data = useGetStats()
   const totalValue = useTotalValue();
   // const tvl = totalValue.toFixed(2);
-  const Bnbprice = usePriceBnbBusd();
-  // const tvl = totalValue.toFixed(2);
-  const Cakeprice = usePriceCakeBusd();
-  // const tvl = totalValue.toFixed(2);
+
 
   return (
     <StyledTotalValueLockedCard>
@@ -31,7 +28,7 @@ const TotalValueLockedCard = () => {
         <>
           {/* <Heading size="xl">{`$${tvl}`}</Heading> */}
           {/* <Heading size="xl"> */}
-            <CardValue value={Bnbprice.toNumber()} prefix="$" decimals={2}/>
+            <CardValue value={totalValue.toNumber()} prefix="$" decimals={2}/>
           {/* </Heading> */}
           <Text color="textSubtle">{TranslateString(999, 'Across all Farms and Pools')}</Text>
         </>
